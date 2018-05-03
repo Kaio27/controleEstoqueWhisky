@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1525163301 source:c:\minhas coisas\matérias\2018\estrutura de dados 2 ano\controleestoquewhisky\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"funcao.h"
+
+1525163284 c:\minhas coisas\matérias\2018\estrutura de dados 2 ano\controleestoquewhisky\funcao.h
+	<stdio.h>
+
+1525163284 source:c:\minhas coisas\matérias\2018\estrutura de dados 2 ano\controleestoquewhisky\funcao.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"funcao.h"
+
+1525271513 source:c:\minhas coisas\matérias\2018\estrutura de dados 2 ano\implementações\controleestoquewhisky\funcao.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"funcao.h"
+
+1525271505 c:\minhas coisas\matérias\2018\estrutura de dados 2 ano\implementações\controleestoquewhisky\funcao.h
+	<stdio.h>
+
+1525271527 source:c:\minhas coisas\matérias\2018\estrutura de dados 2 ano\implementações\controleestoquewhisky\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"funcao.h"
+
+1525311028 source:c:\users\lucas\desktop\controleestoquewhisky-master\controleestoquewhisky\funcao.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"funcao.h"
+
+1525257458 c:\users\lucas\desktop\controleestoquewhisky-master\controleestoquewhisky\funcao.h
+	<stdio.h>
+
+1525309740 source:c:\users\lucas\desktop\controleestoquewhisky-master\controleestoquewhisky\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"funcao.h"
+
