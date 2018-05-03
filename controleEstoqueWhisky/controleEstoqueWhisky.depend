@@ -33,7 +33,7 @@
 	<locale.h>
 	"funcao.h"
 
-1525311028 source:c:\users\lucas\desktop\controleestoquewhisky-master\controleestoquewhisky\funcao.c
+1525313808 source:c:\users\lucas\desktop\controleestoquewhisky-master\controleestoquewhisky\funcao.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -43,7 +43,7 @@
 1525257458 c:\users\lucas\desktop\controleestoquewhisky-master\controleestoquewhisky\funcao.h
 	<stdio.h>
 
-1525309740 source:c:\users\lucas\desktop\controleestoquewhisky-master\controleestoquewhisky\main.c
+1525313375 source:c:\users\lucas\desktop\controleestoquewhisky-master\controleestoquewhisky\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

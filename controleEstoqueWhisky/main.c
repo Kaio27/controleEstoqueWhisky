@@ -9,10 +9,9 @@ int main(){
     menu();
     LISTA lista;
     REGISTRO reg;
-    TIPOCHAVE ch = 3;
+    TIPOCHAVE ch;
     int op;
     inicializar(&lista);
-
 
     do{
         printf("Digite a opcao desejada do menu: ");
@@ -31,6 +30,8 @@ int main(){
         inserir3(&lista, reg);
         break;
       case 4:
+        printf("Digite o codigo do produto que deseja buscar: ");
+        scanf("%i", &ch);
         busca_Elemento(&lista, ch);
         break;
       case 5:

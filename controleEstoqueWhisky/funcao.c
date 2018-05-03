@@ -215,8 +215,28 @@ void inserir_elemento_pais(LISTA *l, REGISTRO elem){
 
 
 int busca_Elemento(LISTA *l, TIPOCHAVE ch){
-    int i;
-    if(l->numeroElem == -1){
+    int i=0;
+
+
+    while(i<10 && l->dados[i].cod_prod!=ch){
+        i++;
+    }
+
+    if(i>=10){
+        printf("\nElemento não encontrado na lista\n");
+        return -1;
+    }else{
+        printf("Nome: %s", l->dados[i].nome);
+        printf("Codigo do Produto: %d\n", l->dados[i].cod_prod);
+        printf("Nacionalidade: %s", l->dados[i].nacionalidade);
+        printf("Idade: %d\n", l->dados[i].idade);
+        printf("Preço da venda: %.2f", l->dados[i].preco);
+        printf("\nQuantidade de estoque: %d\n", l->dados[i].qtd_estoque);
+    }
+    system("pause");
+    system("cls");
+    menu();
+    /*if(l->numeroElem == -1){
         return -1;
     }
 
@@ -228,10 +248,9 @@ int busca_Elemento(LISTA *l, TIPOCHAVE ch){
 
     return i;
 
-
     system("pause");
     system("cls");
-    menu();
+    menu();*/
 
 }
 
@@ -277,13 +296,10 @@ void excluirRegistro(LISTA *l, TIPOCHAVE ch){
     while(l->dados[i].cod_prod!=ch && i<10){
         printf("\nl->dados = %i\nch=%i\n",l->dados[i].cod_prod,ch);
         i++;
-    }
-    atual = l->dados[i].cod_prod;
-    /*while(l->dados[atual].chave < ch){
         ant = atual;
         atual = l->dados[atual].prox;
-    }*/
-
+    }
+    atual = l->dados[i].cod_prod;
 
     if(l->dados[i].cod_prod == ch){
         if(ant == -1){
@@ -295,9 +311,10 @@ void excluirRegistro(LISTA *l, TIPOCHAVE ch){
         l->dispo = i;
 
         l->numeroElem = l->numeroElem-1;
-    }else{
         printf("\n O elemento foi excluido");
-    }
+    }/*else{
+        printf("\n O elemento foi excluido");
+    }*/
 
   system("pause");
   system("cls");
